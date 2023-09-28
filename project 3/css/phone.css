@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Single column for small screens */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .sedans{
+    border: 1px solid;
+    border-radius: 10px;
+    height: auto; /* Adjust height to auto for content-based height */
+    margin-bottom: 20px; /* Add space between sections */
+    text-align: center; /* Center the content */
+    border-color: hsl(31, 77%, 52%);
+
+  }
+  .suvs
+  {
+    border: 1px solid;
+    border-radius: 10px;
+    height: auto; /* Adjust height to auto for content-based height */
+    margin-bottom: 20px; /* Add space between sections */
+    text-align: center; /* Center the content */
+    border-color: hsl(184, 100%, 22%);
+  }
+  .luxury {
+    border: 1px solid;
+    border-radius: 10px;
+    height: auto; /* Adjust height to auto for content-based height */
+    margin-bottom: 20px; /* Add space between sections */
+    text-align: center; /* Center the content */
+    border-color:hsl(179, 100%, 13%);
+  }
+  
+  .sedans img,
+  .suvs img,
+  .luxury img {
+    margin: 15px 0;
+    padding: 10px 0;
+    max-width: 100%; /* Ensure images don't overflow their containers */
+  }
+  
+  h1 {
+    margin: 15px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 24px; /* Increase font size for better readability */
+  }
+  
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 10px 20px;
+    line-height: 1.5;
+  }
+  
+  button {
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 15px 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px; /* Increase font size for better touch interaction */
+  }
+  
+  .btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+  }
+  
+  .btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+  }
+  
+  /* Media query for screens 768px and below (typical phones) */
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px;
+    }
+    
+    .sedans,
+    .suvs,
+    .luxury {
+      margin-bottom: 10px;
+    }
+    
+    h1 {
+      font-size: 20px;
+    }
+    
+    button {
+      font-size: 16px;
+    }
+  }
+  
