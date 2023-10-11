@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 0px;
+    width: 60vw;
+    height: 77vh;
+
+    background-image: url(/images/desktop-image-hero-1.jpg);
+}
+.head ul{
+    display: flex;
+    flex-direction: row;
+}
+.head ul li{
+    list-style: none;
+    margin: 25px 23px;
+}
+
+.head ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(253, 252, 252);
+  font-size: 20px;
+
+}
+.grid1{
+    position: relative;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 530px;
+    position: absolute;
+    right: 1px;
+    top: 0%;
+ 
+    width: 40vw;
+    height: 77vh;
+
+}
+.header h1{
+    font-size: 30px;
+    text-align: left;
+    margin: 7pc 6pc;
+    
+}
+.header p{
+    font-size: 15px;
+    text-align: left;
+    margin: -5pc 6.5pc;
+    color: rgb(189, 177, 177);
+    
+}
+.header .para{
+    margin: 6pc  6.5pc;
+    letter-spacing: 7px;
+    color: rgb(26, 19, 19);
+    font-size: 20px;
+    
+}
+.grid3{
+    position: static;
+    display: grid;
+    grid-template-columns: 460px 420px 385px;
+    grid-template-rows: 350px 350px 350px;
+    gap: 10px;
+    width: 100vw;
+    height: 50vh;
+}
+.heading h3{
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin:35px 0px
+}
+.heading p{
+    font-size: 16px;
+    margin-top: -15px;
+    color: darkgrey;
+    }
+    .grid3 .image2{
+        margin: 0px 10px;
+    }
+
+@media screen and (max-width:768px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+    
