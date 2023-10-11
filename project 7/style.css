@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(235, 18%, 26%);
+    margin: 100px 300px;
+    height: 100vh;
+    width: 100vw;
+    
+
+ 
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0px hsl(235, 18%, 26%);
+    border-radius: 10px;
+    height: 500px;
+    width: 650px;
+    padding: 5px 10px;
+    
+}
+.container1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    z-index: 1;
+}
+.container1 .sign-up{
+    font-family: Roboto-Bold;
+
+}
+.sign-up h1{
+    font-size: 35px;
+    margin: 30px 0px;
+}
+.sign-up p{
+    font-style: Roboto-Bold ;
+    font-size: 17px;
+    white-space:pre-line;
+  
+}
+.image img{
+    height: 400px;
+    width:600px;
+    margin: 10px;
+    position: absolute;
+    margin: 25px 190px;
+}
+.sign-up h1{
+    font-weight: 700;
+    font-family: Roboto-Bold;
+    font-size: 35px;
+}
+.points{
+    margin: 20px 10px;
+}
+.points ul li{
+ list-style: none;
+ padding: 10px;
+}
+li p::before{
+  content: "\f058";
+  padding-right: 4px;
+}
+.form input{
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    margin: 10px 0px;
+    border: 1px solid hsl(235, 18%, 26%);
+    text-align: center;
+
+    
+}
+.form h1{
+    font-size: 18px;
+}
+.btn button{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 0px;
+    font-size: large;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+
+}
+
+.btn button:hover{
+    color: blue;
+    background-color: aqua;
+}
